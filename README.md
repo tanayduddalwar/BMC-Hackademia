@@ -6,7 +6,7 @@ This Streamlit-based dashboard provides insights into customer behavior, product
 ## 🏗 Features
 - **Upload JSON files** for customer, transaction, product, region, and return information.
 - **Data Preprocessing** including merging datasets, handling missing values, and feature extraction.
-- **Predictions using XGBoost**, with probability scores for customer transactions.
+- **Predictions using RandomForest**, with probability scores for customer transactions.
 - **Visualizations**: Feature Importance, Prediction Distribution, Customer Segmentation, Returns Analysis, and Monthly Sales Trends.
 - **Download Predictions** as a CSV file.
 
@@ -82,7 +82,7 @@ streamlit run app.py
 5. Submit a pull request!
 
 ## ⭐ Acknowledgments
-- **XGBoost** for machine learning predictions.
+- **RandomForest** for machine learning predictions.
 - **Streamlit** for interactive visualization.
 - **Pandas, Matplotlib, Seaborn** for data processing and visualization.
 
